@@ -87,3 +87,21 @@ body{
     color: white;
     transition: 0.3s;
 }
+
+/* tela de celular */
+@media screen and (max-width: 480px) {}
+
+/* Dispostivos com telas muito com pequenas */
+@media screen and (min-width: 481px) and (max-width: 767px) {}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Tablets maiores e notebooks */
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Desktops */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {}
+
+/* Telas maiores */
+@media screen and (min-width: 1920px) {}
