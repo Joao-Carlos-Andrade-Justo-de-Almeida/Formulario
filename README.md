@@ -15,7 +15,6 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 - [Contribuindo](#contribuindo)
 - [Licença](#licença)
 <br>
-<br>
 
 ## 💻 Funcionalidades 
 - `Identificação do Cliente`: Campos para inserção de informações como nome, e-mail, e número do pedido.
