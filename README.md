@@ -110,7 +110,7 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 <br>
 
-## 🔨 Instalação
+## 🔨 Instalação das bibliotecas 
 - Primerio deve criar o ambiente virtual com o comando **python venv -m nome_do_ambiente**.
 <br>
 <br>
@@ -126,3 +126,9 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 - Instale a biblioteca bootstrap5 usando comando **pip install django-bootstrap5**.
 <br>
 <br>
+
+- Instale a biblioteca mysqlclient usando o comando **pip install mysqlclient**.
+<br>
+<br>
+
+- Instale a biblioteca PyMySQL usando o comando **pip install PyMySQL**. 
