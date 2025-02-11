@@ -110,7 +110,7 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 <br>
 
-## 🔨 Instalação das bibliotecas 
+## 🔨 Instalação 
 - Primerio deve criar o ambiente virtual com o comando **python venv -m nome_do_ambiente**.
 <br>
 <br>
