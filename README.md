@@ -71,7 +71,6 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 
 - `Botão`: Botão que confirma todos os inputs e salva no banco de dados.
 <br>
-<br>
 
 ## 👩‍💻 Tecnologias Utilizadas
 <img 
