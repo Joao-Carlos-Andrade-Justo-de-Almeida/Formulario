@@ -108,6 +108,7 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
     style="padding-right: 10px;"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
 <br>
+<br>
 
 ## 🔨 Instalação das bibliotecas 
 - Primerio deve criar o ambiente virtual com o comando **python venv -m nome_do_ambiente**.
