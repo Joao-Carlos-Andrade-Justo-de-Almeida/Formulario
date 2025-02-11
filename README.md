@@ -131,4 +131,9 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 <br>
 
-- Instale a biblioteca PyMySQL usando o comando **pip install PyMySQL**. 
+- Instale a biblioteca PyMySQL usando o comando **pip install PyMySQL**.
+<br>
+
+## 🖱️ Como Utilizar
+
+
