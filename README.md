@@ -7,7 +7,7 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 <br>
 
-## `ÍNDICE`
+## 📍 `ÍNDICE`
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação](#instalação)
