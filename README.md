@@ -64,11 +64,8 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 <br>
 
-- `Email`: Campo para inserir o endereço de e-mail de contato, que pode ser usado para comunicação e acompanhamento da devolução.
-<br>
-<br>
-
 - `Botão`: Botão que confirma todos os inputs e salva no banco de dados.
+<br>
 <br>
 
 ## 👩‍💻 Tecnologias Utilizadas
@@ -109,6 +106,7 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
 <br>
 <br>
+<br>
 
 ## 🔨 Instalação 
 - Primerio deve criar o ambiente virtual com o comando **python venv -m nome_do_ambiente**.
@@ -133,7 +131,28 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 
 - Instale a biblioteca PyMySQL usando o comando **pip install PyMySQL**.
 <br>
+<br>
+
+- Instale caso não tenha o MySQL, instale ele também. Está disponivel no próprio site [Mysql](#https://dev.mysql.com/downloads/installer/)
 
 ## 🖱️ Como Utilizar
+- Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**
+<br>
+<br>
 
 
+- Utilize o comando **django manage.py makemigrations** para migrar o models do projeto para o banco de dados.
+<br>
+<br>
+
+- Após isso, use o comando **django manage.py migrate** para a tabela no banco de dados criada.
+<br>
+<br>
+
+- Se estiver tudo funcionando, é só abrir o banco de dados para ver se a tabela irá ser criada.
+
+
+
+        
+          
+          
