@@ -134,6 +134,14 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 
 - Instale caso não tenha o MySQL, instale ele também. Está disponivel no próprio site [Mysql](#https://dev.mysql.com/downloads/installer/)
+<br>
+<br>
+
+- Baixe o MySQL Workbench e o MySQL command-line client
+<br>
+<br>
+
+- Terá que colocar uma senha para acessar o MySQL com and-line client. Coloque uma senha que lembre para ficar mais fácil o acesso. 
 
 ## 🖱️ Como Utilizar
 - Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**
