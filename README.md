@@ -144,7 +144,19 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 - Terá que colocar uma senha para acessar o MySQL com and-line client. Coloque uma senha que lembre para ficar mais fácil o acesso. 
 
 ## 🖱️ Como Utilizar
-- Primeiro deve ter já criado um banco de dados, para use o comando CREATE DATABASE nome_do_seu_banco 
+- Primeiro deve ter já criado um banco de dados, para use o comando CREATE DATABASE **nome_do_seu_banco** CHARACTER SET = utf8mb4 COLLATE utf8mb4_unicode_ci no command-line;
+<br>
+<br>
+
+- Agora temos que ter um usuário e senha no seu banco de dados, para conseguir entrar no Workbench, para fazer isso use o comando CREATE USER '**seu_usuario**'@'localhost' IDENTIFIED WITH mysql_native_password BY '**sua_senha**';
+<br>
+<br>
+
+- Agora é a parte final, onde damos os privilégio para poder manipular o banco de dados, use o comando GRANT ALL PRIVILEGES ON **nome_do_seu_banco**.* TO '**seu_usuario**'@'localhost' WITH GRANT OPTION;
+<br>
+<br>
+
+Agora vá no vscode, no arquivo settings.py e na estrutura de banco de dados vai estar já padronizado para o sqlite3.
 
 - Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**
 <br>
