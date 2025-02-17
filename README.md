@@ -156,12 +156,32 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 <br>
 <br>
 
-Agora vá no vscode, no arquivo settings.py e na estrutura de banco de dados vai estar já padronizado para o sqlite3.
-
-- Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**
+- Agora vá no vscode, no arquivo settings.py e na estrutura de banco de dados vai estar já padronizado para o sqlite3. Troque para essa estrutura
+DATABASES = {
+    'default': {
+        'ENGINE':
+        'django.db.backends.mysql',
+        'NAME':'**nome_do_seu_banco**',
+        'USER': '**seu_usuario**',
+        'PASSWORD':'**sua_senha**',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {
+        'charset': 'utf8mb4',
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        }
+    }
+} 
 <br>
 <br>
 
+- Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**. Nele irá para vc colocar as seguintes informações:
+user: **nome_do_usuario**
+email: **email@gmail.com**
+senha: **sua_senha**
+Repita a senha e seu superuser está criado. 
+<br>
+<br>
 
 - Utilize o comando **django manage.py makemigrations** para migrar o models do projeto para o banco de dados.
 <br>
@@ -172,9 +192,14 @@ Agora vá no vscode, no arquivo settings.py e na estrutura de banco de dados vai
 <br>
 
 - Se estiver tudo funcionando, é só abrir o banco de dados para ver se a tabela irá ser criada.
+<br>
+<br>
 
+- Para rodar o programa, use o comando **python manage.py runserver**, irá abrir um link no terminal **127.0.0.1**, segure o CTRL e clique nele para abrir no seu navegador. 
+<br>
+<br>
 
+- Para usar as o formulário o tópico **Funcionalidades** já está explicado quais informações exatas tem que colocar. 
 
-        
           
           
