@@ -144,6 +144,8 @@ Este projeto consiste em um formulário de devolução simples que fiz para empr
 - Terá que colocar uma senha para acessar o MySQL com and-line client. Coloque uma senha que lembre para ficar mais fácil o acesso. 
 
 ## 🖱️ Como Utilizar
+- Primeiro deve ter já criado um banco de dados, para use o comando CREATE DATABASE nome_do_seu_banco 
+
 - Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**
 <br>
 <br>
