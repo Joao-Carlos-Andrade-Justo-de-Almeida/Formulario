@@ -175,10 +175,10 @@ DATABASES = {
 <br>
 <br>
 
-- Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**. Nele irá para vc colocar as seguintes informações:
-user: **nome_do_usuario**
-email: **email@gmail.com**
-senha: **sua_senha**
+- Para criar um usuário para o painel administrador, utilize o comando **django manage.py createsuperuser**. Nele deve colocar as seguintes informações:
+user: **nome_do_usuario**;
+email: **email@gmail.com**;
+senha: **sua_senha**.
 Repita a senha e seu superuser está criado. 
 <br>
 <br>
@@ -200,6 +200,11 @@ Repita a senha e seu superuser está criado.
 <br>
 
 - Para usar as o formulário o tópico **Funcionalidades** já está explicado quais informações exatas tem que colocar. 
+<br>
+<br>
 
-          
+## 📞 Quer me contatar ?
+
+- `Email:` justodeandrade@gmail.com; justoalmeidaandrade@gmail.com
+- `Linkedin:` [João Carlos A. J. de Almeida](#https://www.linkedin.com/in/jo%C3%A3o-carlos-a-j-de-almeida-283440211/)
           
