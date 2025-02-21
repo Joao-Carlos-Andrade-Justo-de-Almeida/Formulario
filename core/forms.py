@@ -1,6 +1,6 @@
 from django import forms
 from .models import FormularioModel
-from django.core.mail import EmailMessage
+
 
 class FormularioModelForm(forms.ModelForm):
     class Meta:
@@ -18,33 +18,6 @@ class FormularioModelForm(forms.ModelForm):
             'motivo': forms.Select(attrs={'required': True}),
             'setor': forms.Select(attrs={'required': True}),
             'valor': forms.NumberInput(attrs={'step': '0.01', 'required': True}),
-            'email': forms.EmailInput(attrs={'placeholder':'Digite o email que deseja enviar'})
         }
-        
-    def send_mail(self):
-        data = self.cleaned_data['data']
-        turno = self.cleaned_data['turno']
-        conferente = self.cleaned_data['conferente']
-        cliente = self.cleaned_data['cliente']
-        transportadora = self.cleaned_data['transportadora']
-        num_nota = self.cleaned_data['num_nota']
-        quantidade_cx = self.cleaned_data['quantidade_cx']
-        quantidade_recebidas = self.cleaned_data['quantidade_recebidas']
-        motivo = self.cleaned_data['motivo']
-        setor = self.cleaned_data['setor']
-        valor = self.cleaned_data['valor']
-        email = self.cleaned_data['email']
-        
-        conteudo = f"""Data: {data}\nTurno: {turno}\nConferente: {conferente}\nCliente: {cliente}\nTransportadora: {transportadora}\nNº da nota: {num_nota}
-        \nQuantidade de caixas: {quantidade_cx}\nQuantidade de caixas recebidas: {quantidade_recebidas}\nMotivo: {motivo}\nSetor: {setor}\nValor: {valor}\nEmail: {email}"""
-                    
-        mail = EmailMessage(
-            subject=f'Devolução do cliente {cliente}',
-            body=conteudo,
-            from_email= 'contato@seudominio.com.br',
-            to=['justodeandrade@gmail.com',],
-            headers={'reply_to': email},
-        )
-        
-        mail.send()
+
     

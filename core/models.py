@@ -34,4 +34,4 @@ class FormularioModel(models.Model):
     motivo = models.CharField('Motivo da devolução:', max_length=11, choices=Motivo, default='Avaria')
     setor = models.CharField('Setor que causou a devolução:',  max_length=9, choices=SETOR, default='Logística')
     valor = models.DecimalField('Valor da devolução:', decimal_places=2, max_digits=10)
-    email = models.EmailField('Email', default='example@gmail.com', max_length=50)
+   
